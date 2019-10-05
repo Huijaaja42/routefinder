@@ -4,13 +4,17 @@ A RouteFinder plugin for Euroscope.
 
 ### Prerequisites
 
-To install and run this you need to have [Euroscope](https://www.euroscope.hu/) installed.
+To install and run this you need to have [Euroscope](https://www.euroscope.hu/) installed. You need an API KEY from [here](https://routefinder-61e37.web.app/).
 
 ### Installing
 
 Download the latest release from [releases](https://github.com/Huijaaja42/routefinder/releases/latest).
 
 Extract the contents to your Euroscope working directory e.g. `C:\%homepath%\Documents\EuroScope\`.
+
+Get your API KEY from [here](https://routefinder-61e37.web.app/).
+
+Create a `key.txt` file in your Euroscope working directory and put your API KEY in it.
 
 Every time you start Euroscope go to  `OTHER SET => Plug-ins ...` press `Load` and select the `RouteFinder.dll` from the Euroscope working directory.
 
