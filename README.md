@@ -4,7 +4,7 @@ A RouteFinder plugin for Euroscope.
 
 ### Prerequisites
 
-To install and run this you need to have [Euroscope](https://www.euroscope.hu/) installed. You need an API KEY from [here](https://routefinder-61e37.web.app/).
+To install and run this you need to have [Euroscope](https://www.euroscope.hu/) installed. And you need an API KEY from [here](https://routefinder-61e37.web.app/).
 
 ### Installing
 
@@ -19,6 +19,24 @@ Create a `key.txt` file in your Euroscope working directory and put your API KEY
 Every time you start Euroscope go to  `OTHER SET => Plug-ins ...` press `Load` and select the `RouteFinder.dll` from the Euroscope working directory.
 
 Alternatively you can add `Plugins	Plugin0	RouteFinder.dll` to your `.prf` file to automatically load the plugin every time. If your `.prf` file has other plugins change `Plugin0` number accordingly e.g. `Plugin0` already exits => `Plugin1` for this plugin.
+
+### Usage
+
+`ADEP` is the departure airfield ICAO code.
+
+`ADEP` is the arrival airfield ICAO code.
+
+`FLXXX` is the planned cruise flightlevel where XXX is a whole number with 2 to 3 digits.
+
+`CALLSIGN` is the callsign of any aircraft with a flightplan.
+
+There are three ways to generate a route:
+
+1. `.route ADEP ADES FLXXX` then press enter
+2. `.route CALLSIGN` then press enter
+3. `.route` select an aircraft then press enter
+
+After a successfull request the route or the appropriate error is sent to you as a text message. All responses are also sent to your clipboard to enable easy pasting of the route.
 
 ### Compiling
 
