@@ -8,9 +8,13 @@ To install and run this you need to have [Euroscope](https://www.euroscope.hu/) 
 
 ### Installing
 
+<<<<<<< HEAD
 Download the latest release from [releases](https://github.com/Huijaaja42/routefinder/releases/latest).
+=======
+Download the latest release from [releases](/releases).
+>>>>>>> 5e1bd4f2a31d2c55db00190c15bc3d8157f4bb81
 
-Extract the contents to your Euroscope working directory e.g. `C:\%homepath%\Documents\EuroScope\``.
+Extract the contents to your Euroscope working directory e.g. `C:\%homepath%\Documents\EuroScope\`.
 
 Every time you start Euroscope go to  `OTHER SET => Plug-ins ...` press `Load` and select the `RouteFinder.dll` from the Euroscope working directory.
 
