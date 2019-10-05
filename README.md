@@ -8,7 +8,7 @@ To install and run this you need to have [Euroscope](https://www.euroscope.hu/) 
 
 ### Installing
 
-Download the latest release from [releases](/releases/latest).
+Download the latest release from [releases](https://github.com/Huijaaja42/routefinder/releases/latest).
 
 Extract the contents to your Euroscope working directory e.g. `C:\%homepath%\Documents\EuroScope\``.
 
