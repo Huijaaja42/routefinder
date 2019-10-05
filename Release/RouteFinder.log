@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  RouteFinder.cpp
+  RouteFinderPlugIn.cpp
+     Creating library C:\Users\chris\source\repos\RouteFinder\Release\RouteFinder.lib and object C:\Users\chris\source\repos\RouteFinder\Release\RouteFinder.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1081 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  RouteFinder.vcxproj -> C:\Users\chris\source\repos\RouteFinder\Release\RouteFinder.dll
