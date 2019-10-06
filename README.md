@@ -4,7 +4,7 @@ A RouteFinder plugin for Euroscope.
 
 ### Prerequisites
 
-To install and run this you need to have [Euroscope](https://www.euroscope.hu/) installed. And you need an API KEY from [here](https://routefinder-61e37.web.app/) (Google will share your name, email address, language preference, and profile picture with me to stop abuse). You can also email [chr.kovanen@gmail.com](mailto:chr.kovanen@gmail.com) for an API KEY.
+To install and run this you need to have [Euroscope](https://www.euroscope.hu/) installed. And you need an API KEY from [here](https://routefinder-61e37.web.app/).
 
 ### Installing
 
