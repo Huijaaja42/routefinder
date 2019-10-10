@@ -110,7 +110,7 @@ void RouteFinderPlugIn::getRoute() {
 				DisplayUserMessage("RouteFinder", "ERROR", error, true, true, false, true, false);
 			}
 			else {
-
+				DisplayUserMessage("RouteFinder", "ERROR", "Undefined error", true, true, false, true, false);
 			}
 		}
 		else {
