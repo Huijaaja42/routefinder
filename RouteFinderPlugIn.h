@@ -7,6 +7,12 @@
 #include <fstream>
 #include <thread>
 #include <cpr/cpr.h>
+#include <rapidjson/rapidjson.h>
+#include <rapidjson/document.h>
+#include <rapidjson/prettywriter.h>
+#include <rapidjson/stringbuffer.h>
+#include <rapidjson/writer.h>
+#include <windows.data.json.h>
 #include "./lib/include/EuroScopePlugIn.h"
 #include "RouteFinder.h"
 
