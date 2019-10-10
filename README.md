@@ -12,7 +12,7 @@ Download the latest release from [releases](https://github.com/Huijaaja42/routef
 
 Extract the contents to your Euroscope working directory e.g. `C:\%homepath%\Documents\EuroScope\`.
 
-Get your API KEY from [here](https://routefinder-61e37.web.app/).
+Get your API KEY.
 
 Create a `key.txt` file in your Euroscope working directory and put your API KEY in it.
 
