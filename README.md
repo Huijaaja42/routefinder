@@ -40,11 +40,12 @@ After a successful request, the route or the appropriate error is sent to you as
 
 ### Compiling
 
-You need to install [Vcpkg](https://github.com/microsoft/vcpkg). Install `cpr` with `vcpkg install cpr`.
+You need to install [Vcpkg](https://github.com/microsoft/vcpkg). Install `cpr` and `rapidjson`  with `vcpkg install cpr rapidjson`.
 
 ## Built With
 
 * [Cpr](https://whoshuu.github.io/cpr/) - A Curl Wrapper
+* [RapidJSON](http://rapidjson.org/) - A JSON Parser
 * [Vcpkg](https://github.com/microsoft/vcpkg) - A C/C++ package manager for Visual Studio
 
 ## Contributing
