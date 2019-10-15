@@ -2,7 +2,7 @@
 #include "RouteFinderPlugIn.h"
 
 #define MY_PLUGIN_NAME      "RouteFinder"
-#define MY_PLUGIN_VERSION   "0.8"
+#define MY_PLUGIN_VERSION   "0.8.1"
 #define MY_PLUGIN_DEVELOPER "Christian Kovanen"
 #define MY_PLUGIN_COPYRIGHT "(c)2019"
 
@@ -94,9 +94,9 @@ void RouteFinderPlugIn::getRoute() {
 	rapidjson::StringBuffer strbuf;
 	rapidjson::PrettyWriter<rapidjson::StringBuffer> writer(strbuf);
 	json.Accept(writer);
-	auto r = cpr::Post(cpr::Url{ "144.91.67.59:3600" },
+	auto r = cpr::Post(cpr::Url{ "https://route.go-away.xyz/" },
 		cpr::Authentication{ "basic", _KEY },
-		cpr::Header{ {"Content-Type", "application/json"}, {"User-Agent", "RouteFinder/0.8"} },
+		cpr::Header{ {"Content-Type", "application/json"}, {"User-Agent", "RouteFinder/0.8.1"} },
 		cpr::Body{ {strbuf.GetString()} });
 	rapidjson::Document response;
 	if (r.text.empty()) {
